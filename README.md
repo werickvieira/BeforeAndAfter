@@ -1,0 +1,2 @@
+# BeforeAndAfter
+Recortando imagem
