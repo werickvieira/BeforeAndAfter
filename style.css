@@ -1,0 +1,47 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container{
+  overflow: hidden;
+  margin: 40px 0;
+  position: relative;
+}
+.app{
+  max-width: 640px;
+  height: 359px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+  position: relative;
+  overflow:hidden; 
+  outline: 0;
+  user-drag: none; 
+  user-select: none;
+  cursor: pointer;
+}
+
+.controler{
+  min-height: 360px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  background: green;
+  width: 5px;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: block;
+  outline: 0;
+  border: 0;
+}
+
+.app > .before{
+  position: absolute;
+  clip-path: inset(0px 320px 0px 0px); /* top hor bot */
+  z-index: 1;
+}
+
+.app > .after{
+  position: absolute;
+}
